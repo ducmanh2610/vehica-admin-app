@@ -1,0 +1,46 @@
+<div class="brand-list">
+    <div class="brand-list-header">
+        <h1>Car Brand Listing</h1><button (click)="navigateToBrandDetail()" class="btn btn-outline-danger"><i class="bi bi-plus-lg"></i> Add New
+            Brand</button>
+    </div>
+    <div class="brand-list-table">
+        <table class="table">`
+            <thead>
+                <tr>
+                    <th scope="col">Sr.No</th>
+                    <th scope="col">Images</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><img src="" alt="bmw"></td>
+                    <td>BMW</td>
+                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis maiores, reprehenderit nulla
+                        veritatis quidem nobis. Consequuntur, tenetur tempore? Doloremque consequatur pe\rspiciatis
+                        aliquid. Quos hic neque a excepturi incidunt unde consequatur, laborum ducimus velit sed
+                        veritatis sunt quam labore distinctio facilis, est nemo aliquid deserunt voluptatem vero,
+                        sapiente accusantium illum animi!</td>
+                    <td><span class="action-icon"><i routerLink="/car-brand-detail" class="bi bi-pencil-square edit-button"></i><i onclick="confirm('Are you sure want to delete it ?')" class="bi bi-trash3 remove-button"></i></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>Thornton</td>
+                    <td><span class="action-icon"><i class="bi bi-pencil-square edit-button"></i><i class="bi bi-trash3 remove-button"></i></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td></td>
+                    <td><span class="action-icon"><i class="bi bi-pencil-square edit-button"></i><i class="bi bi-trash3 remove-button"></i></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
